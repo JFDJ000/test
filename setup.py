@@ -1,5 +1,5 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 setup(name='hello_world',
       version='1.0',
-      py_modules=['firstModule'],
+      packages=find_packages(),
       )
